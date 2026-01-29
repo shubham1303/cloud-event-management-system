@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact iSchool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="brand">
+        <div class="brand-logo">i</div>
+        <div class="brand-text">
+            <span class="brand-title">Syracuse University iSchool</span>
+            <span class="brand-subtitle">Event Showcase</span>
+        </div>
+    </div>
+</header>
+
+<nav class="site-nav">
+    <a class="nav-link" href="index.html">Home</a>
+    <a class="nav-link" href="events.html">Events</a>
+    <a class="nav-link" href="registration.html">Registration</a>
+    <a class="nav-link active" href="contact.html">Contact</a>
+</nav>
+
+<main class="main-container">
+    <section class="section">
+        <div class="section-header">
+            <h2>Contact the iSchool events team</h2>
+            <p>Reach out with questions about upcoming events, collaborations, or suggestions for future sessions.</p>
+        </div>
+
+        <div class="layout-two-columns">
+            <div class="card form-card">
+                <form>
+                    <div class="field">
+                        <label for="cname">Your name</label>
+                        <input id="cname" type="text" placeholder="Enter your name">
+                    </div>
+
+                    <div class="field">
+                        <label for="cemail">Your email</label>
+                        <input id="cemail" type="email" placeholder="netid@syr.edu">
+                    </div>
+
+                    <div class="field">
+                        <label for="topic">Topic</label>
+                        <select id="topic">
+                            <option>General question</option>
+                            <option>Event details</option>
+                            <option>Accessibility request</option>
+                            <option>Collaboration or sponsorship</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label for="cmessage">Message</label>
+                        <textarea id="cmessage" rows="5" placeholder="Write your message here."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn primary full-width">Send message</button>
+                </form>
+            </div>
+
+            <div class="card info-card">
+                <h3>Contact details</h3>
+                <p>School of Information Studies (iSchool)</p>
+                <p>Syracuse University</p>
+                <p>Hinds Hall, Syracuse, NY</p>
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">ischool@syr.edu</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">Website</span>
+                        <span class="contact-value">ischool.syr.edu</span>
+                    </div>
+                </div>
+                <p class="info-note">This contact page is part of a static site hosted on AWS S3 and distributed by CloudFront, focusing on structure and layout rather than live form handling.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <p>© 2025 Syracuse University iSchool · Event Showcase</p>
+</footer>
+</body>
+</html>
